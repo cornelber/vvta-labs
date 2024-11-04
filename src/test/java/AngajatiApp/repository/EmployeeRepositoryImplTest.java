@@ -73,7 +73,7 @@ class EmployeeRepositoryImplTest {
     void addEmployee_InvalidSecondName_TC3() {
         try {
             System.out.println("Test Case 3: Invalid secondName contains numbers");
-            Employee employee = new Employee("John", "D123", "1234567890123", DidacticFunction.CONFERENTIAR, 6000.0);
+            Employee employee = new Employee("John", "D123", "9345817264093", DidacticFunction.CONFERENTIAR, 6000.0);
             System.out.println("Employee created: " + employee);
 
             boolean result = employeeRepo.addEmployee(employee);
